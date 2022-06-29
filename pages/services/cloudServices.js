@@ -1,19 +1,13 @@
 import Layout from "../../components/Layout";
 import PageHeader from "../../components/PageHeader";
-import Footer from "../../components/Footer";
-
+import Cloud from "../../components/Cloud";
+import NavOne from "../../components/NavOne";
 const render = () => {
   return (
     <Layout pageTitle="Cloud Services">
-      <PageHeader title="Cloud Services" Class="inner-banner_cloud" />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Footer />
+      <NavOne />
+      <PageHeader Class="inner-banner_cloud" />
+      <Cloud />
     </Layout>
   );
 };

@@ -1,19 +1,13 @@
 import Layout from "../../components/Layout";
 import PageHeader from "../../components/PageHeader";
-import Footer from "../../components/Footer";
-
+import CMS from "../../components/CMS";
+import NavOne from "../../components/NavOne";
 const render = () => {
   return (
     <Layout pageTitle="Custom made solutions">
-      <PageHeader title="Custom made solutions" Class="inner-banner_custom" />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Footer />
+      <NavOne />
+      <PageHeader Class="inner-banner_custom" />
+      <CMS />
     </Layout>
   );
 };

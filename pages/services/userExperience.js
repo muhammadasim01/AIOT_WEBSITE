@@ -1,19 +1,13 @@
 import Layout from "../../components/Layout";
 import PageHeader from "../../components/PageHeader";
-import Footer from "../../components/Footer";
-
+import UserExperience from "../../components/UserExperience";
+import NavOne from "../../components/NavOne";
 const render = () => {
   return (
     <Layout pageTitle="User Experience">
-      <PageHeader title="User Experience" Class="inner-banner_experience" />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Footer />
+      <NavOne />
+      <PageHeader Class="inner-banner_experience" />
+      <UserExperience />
     </Layout>
   );
 };

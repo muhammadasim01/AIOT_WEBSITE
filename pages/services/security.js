@@ -1,19 +1,13 @@
 import Layout from "../../components/Layout";
 import PageHeader from "../../components/PageHeader";
-import Footer from "../../components/Footer";
-
+import Security from "../../components/Security";
+import NavOne from "../../components/NavOne";
 const render = () => {
   return (
     <Layout pageTitle="Security">
-      <PageHeader title="Security" Class="inner-banner_security" />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Footer />
+      <NavOne />
+      <PageHeader Class="inner-banner_security" />
+      <Security />
     </Layout>
   );
 };

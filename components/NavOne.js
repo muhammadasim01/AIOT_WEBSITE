@@ -68,44 +68,20 @@ export default class NavOne extends Component {
               <ul className=" one-page-scroll-menu navigation-box">
                 <li className="current scrollToLink">
                   <a href="/">Home</a>
-                  {/* <ul className="sub-menu">
-                    <li>
-                      <a href="/">Home 01</a>
-                    </li>
-                    <li>
-                      <a href="/index-2">Home 02</a>
-                    </li>
-                    <li>
-                      <a href="#">Header Versions</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="/">Header 01</a>
-                        </li>
-                        <li>
-                          <a href="/index-2">Header 02</a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul> */}
                 </li>
                 <li className="scrollToLink">
-                  <a href="#vision">Our Goals</a>
+                  <a href="/#vision">Our Goals</a>
                 </li>
                 <li className="scrollToLink">
-                  <a href="#Services">Services</a>
+                  <a href="/#Services">Services</a>
                 </li>
                 <li className="scrollToLink">
-                  <a href="#solution">Solution</a>
+                  <a href="/#blog">blog</a>
                 </li>
                 <li className="scrollToLink">
-                  <a href="#contact">Contact us</a>
+                  <a href="/#contact">Contact us</a>
                 </li>
-                <li className="scrollToLink">
-                  <a href="/sap/sapwithIndustry">sap with industry</a>
-                </li>
-                {/* <li className="scrollToLink">
-                  <a href="#screenshots">App Screenshots</a>
-                </li> */}
+
                 <li className="scrollToLink">
                   <a href="https://probook247.com/" target="_blank">
                     probook 247
@@ -113,11 +89,6 @@ export default class NavOne extends Component {
                 </li>
               </ul>
             </div>
-            {/* <div className="right-side-box">
-              <a className="thm-btn header__cta-btn" href="#">
-                <span>Login</span>
-              </a>
-            </div> */}
           </div>
         </nav>
       </header>

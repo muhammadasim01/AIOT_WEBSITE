@@ -450,6 +450,12 @@
   .banner_row {
     margin-top: -5rem;
   }
+  .banner_one__main_title {
+   
+    font-weight: 300;
+    font-size: 70px;
+   
+  }
 }
 @media (max-width: 767px) {
   .blog-details .share-block {
@@ -508,6 +514,17 @@
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
+  }
+  .banner_one__main_title {
+   
+    font-weight: 300;
+    font-size: 40px;
+   
+  }
+  .banner_one_title {
+  
+    font-size: 30px;
+   
   }
 
   .footer-widget__about {

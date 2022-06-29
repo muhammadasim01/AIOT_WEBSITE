@@ -1,19 +1,13 @@
 import Layout from "../../components/Layout";
 import PageHeader from "../../components/PageHeader";
-import Footer from "../../components/Footer";
-
+import Graphic from "../../components/Graphic";
+import NavOne from "../../components/NavOne";
 const render = () => {
   return (
     <Layout pageTitle="Graphic Designing">
-      <PageHeader title="Graphic Designing" Class="inner-banner_graphic" />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Footer />
+      <NavOne />
+      <PageHeader Class="inner-banner_graphic" />
+      <Graphic />
     </Layout>
   );
 };

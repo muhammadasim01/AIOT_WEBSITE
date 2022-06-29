@@ -5,7 +5,7 @@ const SapSolution = () => {
     <section className="blog-one blog-one__home thm-gray-bg">
       <div className="container">
         <div className="block-title text-center">
-          <h2 className="block-title__title">Industries We Serve</h2>
+          <h6 className="text-center banner_one_title">Industries We Serve</h6>
         </div>
         <div className="row">
           <div

@@ -10,26 +10,26 @@ const Screenshots = () => {
     spaceBetween: 30,
     autoplay: {
       delay: 3000,
-      disableOnInteraction: false
+      disableOnInteraction: false,
     },
     // Responsive breakpoints
     breakpoints: {
       1499: {
-        slidesPerView: 5
+        slidesPerView: 5,
       },
 
       991: {
-        slidesPerView: 3
+        slidesPerView: 3,
       },
 
       767: {
-        slidesPerView: 3
+        slidesPerView: 3,
       },
 
       575: {
-        slidesPerView: 2
-      }
-    }
+        slidesPerView: 2,
+      },
+    },
   };
 
   return (

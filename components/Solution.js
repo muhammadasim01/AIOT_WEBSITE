@@ -4,9 +4,6 @@ const Solution = () => {
   return (
     <section className="blog-one blog-one__home thm-gray-bg" id="solution">
       <div className="container">
-        <div className="block-title text-center">
-          <h2 className="block-title__title">Solution</h2>
-        </div>
         <div className="row">
           <div
             className="col-lg-4 col-md-12 col-sm-12 wow fadeInUp"

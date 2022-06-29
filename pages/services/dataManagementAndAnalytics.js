@@ -1,22 +1,13 @@
 import Layout from "../../components/Layout";
 import PageHeader from "../../components/PageHeader";
-import Footer from "../../components/Footer";
-
+import Data from "../../components/DataM&A";
+import NavOne from "../../components/NavOne";
 const render = () => {
   return (
     <Layout pageTitle="Data Management & Analytics">
-      <PageHeader
-        title="Data Management & Analytics"
-        Class="inner-banner_data"
-      />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Footer />
+      <NavOne />
+      <PageHeader Class="inner-banner_data" />
+      <Data />
     </Layout>
   );
 };

@@ -1,22 +1,13 @@
 import Layout from "../../components/Layout";
 import PageHeader from "../../components/PageHeader";
-import Footer from "../../components/Footer";
-
+import Digital from "../../components/Digital";
+import NavOne from "../../components/NavOne";
 const render = () => {
   return (
     <Layout pageTitle="Digital Marketing">
-      <PageHeader
-        title="Digital Marketing"
-        Class="inner-banner_digitalmarketing"
-      />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Footer />
+      <NavOne />
+      <PageHeader Class="inner-banner_digitalmarketing" />
+      <Digital />
     </Layout>
   );
 };

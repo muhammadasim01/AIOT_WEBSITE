@@ -1,19 +1,14 @@
 import Layout from "../../components/Layout";
 import PageHeader from "../../components/PageHeader";
-import Footer from "../../components/Footer";
+import Development from "../../components/Development";
+import NavOne from "../../components/NavOne";
 
 const render = () => {
   return (
     <Layout pageTitle="development">
-      <PageHeader title="development" Class="inner-banner_development" />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Footer />
+      <NavOne />
+      <PageHeader title="" Class="inner-banner_development" />
+      <Development />
     </Layout>
   );
 };

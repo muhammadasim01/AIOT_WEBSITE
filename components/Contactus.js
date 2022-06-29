@@ -1,29 +1,26 @@
 import { useState } from "react";
-
 import emailjs from "emailjs-com";
-
 import { useRef } from "react";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import ButtonGroup from "@mui/material/ButtonGroup";
-import axios from "axios";
 
 import TextField from "@mui/material/TextField";
 const Contact = () => {
   const form = useRef();
-  const [value, setValue] = useState({ name: "", email: "", message: "" });
+  const [value, setValue] = useState({ name: "", user_email: "", message: "" });
 
   const handleChange = (event) => {
-    // setValue({ ...value, [event.target.name]: event.target.value });
+    setValue({ ...value, [event.target.name]: event.target.value });
   };
   const handleSubmit = async (event) => {
     event.preventDefault();
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_d40gpbs",
+        "template_bg5536i",
         form.current,
-        "YOUR_USER_ID"
+        "WTJt9QM453SXgwkQB"
       )
       .then(
         (result) => {
@@ -33,8 +30,9 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-    setValue({ name: "", email: "", message: "" });
+    setValue({ name: "", user_email: "", message: "" });
   };
+
   return (
     <section className="contact" id="contact">
       <h2 className="vision">
@@ -70,8 +68,8 @@ const Contact = () => {
               multiline
               type="text"
               maxRows={4}
-              name="email"
-              value={value.email}
+              name="user_email"
+              value={value.user_email}
               onChange={handleChange}
               variant="standard"
             />
