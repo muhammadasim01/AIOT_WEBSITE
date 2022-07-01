@@ -36,7 +36,7 @@ const NewsHome = ({ blogs }) => {
             </div>
           ))}
         </div>
-        <Link href={`/blogs`}>
+        <Link href={`/blogs/allblogs`}>
           <a
             className="more_blog"
             style={{

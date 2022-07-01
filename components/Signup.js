@@ -1,8 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
+
 import axios from "axios";
 import Link from "next/link";
 const Signup = () => {
+  const router = useRouter();
+
   const [data, setData] = useState({ name: "", email: "", password: "" });
+  useEffect(() => {
+    const token = sessionStorage.getItem("token");
+    if (!token) router.push("/admin/login");
+  }, []);
   const handlerSubmit = async (e) => {
     e.preventDefault();
     const response = await axios.post("/api/signup", data);
