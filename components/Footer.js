@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Link from "next/link";
 
 export default class Blog extends Component {
   constructor() {
@@ -71,16 +72,16 @@ export default class Blog extends Component {
                         <a href="#">Home</a>
                       </li>
                       <li>
-                        <a href="#vision">Goals</a>
+                        <a href="/#vision">Goals</a>
                       </li>
                       <li>
-                        <a href="#Services">Services</a>
+                        <a href="/#Services">Services</a>
                       </li>
                       <li>
-                        <a href="#">Blog</a>
+                        <a href="/#blog">Blog</a>
                       </li>
                       <li>
-                        <a href="#">How It Works</a>
+                        <a href="/#contact">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -88,25 +89,58 @@ export default class Blog extends Component {
                     <h3 className="footer-widget__title">Services</h3>
                     <ul className="footer-widget__links list-unstyled">
                       <li>
-                        <a href="#">SAP BUSINESS ONE </a>
+                        <Link href="/services/development">Development</Link>
                       </li>
                       <li>
-                        <a href="#">Web Development </a>
+                        <Link href="/services/ERP">ERP </Link>
                       </li>
                       <li>
-                        <a href="#">Security Services </a>
+                        <Link href="/services/customMadeSolution">
+                          Custom made solution
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">SEO / Digital Marketing</a>
+                        <Link href="/services/cloudServices">
+                          Cloud servicesg
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">Graphic & Web Design</a>
+                        <Link href="/services/digitalMarketing">
+                          Digital Marketing
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">Domain & Cloud Hosting</a>
+                        <Link href="/services/graphicDesigning">
+                          Graphic Designing
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">Application Development</a>
+                        <Link href="/services/qualityAssurance">
+                          Quality Assurance
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/services/applicationIntegration">
+                          Application Integration
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/services/dataManagementAndAnalytics">
+                          Data Management & Analytics
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/services/itInsfrastructure">
+                          IT Insfrastructure
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/services/security">Security</Link>
+                      </li>
+                      <li>
+                        <Link href="/services/userExperience">
+                          User Experience
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -114,16 +148,16 @@ export default class Blog extends Component {
                     <h3 className="footer-widget__title">Links</h3>
                     <ul className="footer-widget__links list-unstyled">
                       <li>
-                        <a href="#">Help </a>
+                        <a style={{ cursor: "pointer" }}>Help </a>
                       </li>
                       <li>
-                        <a href="#">Support </a>
+                        <a style={{ cursor: "pointer" }}>Support </a>
                       </li>
                       <li>
-                        <a href="#">Clients </a>
+                        <a style={{ cursor: "pointer" }}>Clients </a>
                       </li>
                       <li>
-                        <a href="#">Contact</a>
+                        <a href="/#contact">Contact</a>
                       </li>
                     </ul>
                   </div>
