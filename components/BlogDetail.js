@@ -14,7 +14,7 @@ const NewsDetails = ({ Photo, title, content }) => {
   };
   return (
     <StyleRoot>
-      <section className="blog-details">
+      <section className="blog-details container">
         <div className="blogDetailContainer" style={container}>
           <div className="">
             <div className="">
@@ -30,14 +30,12 @@ const NewsDetails = ({ Photo, title, content }) => {
                 </div>
                 <div className="">
                   <h3
-                    className=""
+                    className="banner-one__title"
                     style={{ textAlign: "center", fontSize: "1.7rem" }}
                   >
                     {title}
                   </h3>
-                  <p className="" style={{ fontSize: "1.7rem" }}>
-                    {content}
-                  </p>
+                  <p className="banner-one__text">{content}</p>
                 </div>
               </div>
             </div>
