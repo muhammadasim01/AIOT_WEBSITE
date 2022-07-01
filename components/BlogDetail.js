@@ -35,7 +35,7 @@ const NewsDetails = ({ Photo, title, content }) => {
                   >
                     {title}
                   </h3>
-                  <p className="banner-one__text">{content}</p>
+                  <p className="blog_text">{content}</p>
                 </div>
               </div>
             </div>
